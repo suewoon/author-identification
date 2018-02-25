@@ -16,7 +16,7 @@ There are following features:
 
 ### Model & Results  
 
-I tried a couple of models with word embeddings and without. As a result, SVC turned out to be the most accurate one, which leads me to the accuracy 0.43293. 
+I tried a couple of models with word embeddings and without. As a result, SVC turned out to be the most accurate one, which led me to the accuracy 0.43293. 
 
 
 Installation 
@@ -24,20 +24,28 @@ Installation
 Need to proceed these follwing steps in order to re-generate the same result. 
 
 ### Clone the repo
-```git clone
+```
+git clone
 ```
 
 ### Install pipenv 
-```pip install pipenv
+```
+pip install pipenv
 ```
 
 ### Install requirements 
-```pipenv install 
 ```
+pipenv install 
+```
+
+Usage
+-----------------------
+This saves a new file that includes the predictions. 
+
 
 EDA & Modelling Explained
 -----------------------
 EDA and modelling proceess is in 
 
-1. [EDA]()
-2. [Modelling Explained]()
+1. [EDA](EDA.ipynb)
+2. [Modelling Explained](modelling-exaplained.ipynb)
